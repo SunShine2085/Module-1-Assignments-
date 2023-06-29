@@ -1,0 +1,27 @@
+import turtle
+
+def square(size):
+  for i in range(4):
+    turtle.forward(size)
+    turtle.right(90)
+
+def triangle(size):
+  for i in range(3):
+    turtle.forward(size)
+    turtle.left(120)
+
+
+def forward(size):
+    turtle.penup()
+    turtle.forward(size)
+    turtle.pendown()
+
+
+def house(size):
+    triangle(size)
+    square(size)
+
+house(100)
+forward(200)
+house(50)
+turtle.Screen().exitonclick()
