@@ -1,3 +1,13 @@
-name = "Chris"
+x = 0
 
-print("Goodbye", name)
+for i in "SCREAM":
+
+    if x < 5:
+
+        print(i, end="-")
+
+    else:
+
+        print("M ice cream!")
+    x += 1
+
