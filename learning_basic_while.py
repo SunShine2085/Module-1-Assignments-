@@ -103,3 +103,55 @@
 # print(sum(list))
 # print(sum(list)/len(list))
 
+# def well(x):
+#     t = -3
+#     while t < x:
+#         if t < 0:
+#             t += x
+#         else:
+#             t *= 2
+#     return t
+# print(well(5))
+
+
+# def zero_counter():
+#     cnt_z = 0
+#     user_input = ""
+#     while user_input != "Q":
+#         user_input = (input("Please Enter a Number, (Q to quit): "))
+#         cnt_z += user_input.count("0")
+#     return cnt_z
+
+# def main():
+#     print("you have", zero_counter(), "zero's")
+# main()#Works
+
+
+# def count_fricatives(list):
+#     fric = "fsvz"
+#     cnt_f = 0
+#     for string in list:
+#         for char in fric:
+#             cnt_f += string.lower().count(char)
+#     return cnt_f
+
+# def main():
+#     print(count_fricatives(["Zebra"," ligthsaber","1234 JOYS!"]))
+#     print("count_fricatives", count_fricatives(["Zebra"," ligthsaber","1234 JOYS!"]) == 3)
+# main()#Works
+
+
+# def why11(list):
+#     y = 1
+#     j = 0
+#     while j < len(list) and y < 11:
+#         x = list[j]
+#         if x < 0:
+#             y -= x
+#         elif x % 2 == 0:
+#             y += x
+#         j +=2
+#     return y
+
+# print(why11([4,-1,-5,2,1,3,7,-8]))
+
