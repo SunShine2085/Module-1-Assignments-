@@ -149,9 +149,35 @@
 #         if x < 0:
 #             y -= x
 #         elif x % 2 == 0:
+#             y *= x
+#         else:
 #             y += x
-#         j +=2
+#         j += 2
 #     return y
 
 # print(why11([4,-1,-5,2,1,3,7,-8]))
 
+# def first_inc():
+#     user_input = input("Please enter a word: ")
+#     i = user_input.lower().find("u")
+#     if i == 0:
+#         i == -1        
+#     return i
+
+# def main():
+#     print (first_inc())
+# main()
+
+# def average_vowels(list):
+#     num_v = 0
+#     for string in list:
+#         upper = string.upper()
+#         for vowel in "AIEOU":
+#              num_v += upper.count(vowel)
+
+#     return num_v/len(list)
+
+# def main():
+#     print(average_vowels(["Zebra"," ligthsaber","1234 JOYS!"]))
+#     print("average_vowels", average_vowels(["Zebra"," ligthsaber","1234 JOYS!"]) == 2)
+# main()
