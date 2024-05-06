@@ -7,14 +7,14 @@
 # two functions in your final solution. The more generalizable you make your code, 
 # the more you may be able to reuse it for your own project later.
 import statistics
-#Read in file
+
 def output_stats(list):
     print("Mean: ", statistics.mean(list))
     print("Median: ", statistics.median(list))
     print("STD: ", statistics.stdev(list))
 
 
-def line_count():
+def readFile_sort_to_list():
     for line in file:
         list = line.rstrip().split(",")
         if list[1] == 'Spring 2016':
@@ -27,8 +27,8 @@ fall = []
 
 csv = "sample_grades.csv"
 file = open(csv)
-for line in file:
-    line_count()
+#read filie and count 
+readFile_sort_to_list()
 file.close()
 
 print("Fall 2016:")
