@@ -31,8 +31,6 @@ for line in file:
     line_count()
 file.close()
 
-print(list)
-
 print("Fall 2016:")
 output_stats(fall)
 
