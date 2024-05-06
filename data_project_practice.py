@@ -13,7 +13,6 @@ def output_stats(list):
     print("Median: ", statistics.median(list))
     print("STD: ", statistics.stdev(list))
 
-
 def readFile_sort_to_list():
     for line in file:
         list = line.rstrip().split(",")
