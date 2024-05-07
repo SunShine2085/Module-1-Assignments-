@@ -24,6 +24,7 @@ def readFile_sort_to_list():
 spring = []
 fall = []
 
+
 csv = "sample_grades.csv"
 file = open(csv)
 #read filie and count 
